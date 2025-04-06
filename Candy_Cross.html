@@ -347,15 +347,16 @@
     }
 
     function movePlayer(e) {
-      if (!gameActive || paused || moving) return;
-      if (e.key === 'ArrowDown') {
-        moving = true;
-        playSound(sounds.move);
-        playerLane++;
-        updatePlayerPosition();
-        setTimeout(() => { if (gameActive) moving = false; }, 200);
-      }
-    }
+  if (!gameActive || paused || moving) return;
+  if (e.key === 'ArrowDown' || e.key.toLowerCase() === 's') {
+    moving = true;
+    playSound(sounds.move);
+    playerLane++;
+    updatePlayerPosition();
+    setTimeout(() => { if (gameActive) moving = false; }, 200);
+  }
+}
+
 
     function collision(el1, el2) {
       let r1 = el1.getBoundingClientRect();
