@@ -39,14 +39,6 @@ Consume as many sugary treats as possible before the ants swarm you. But beware 
 
 ---
 
-## 🎨 Homepage Preview
-
-![SweetOdds Homepage](https://crustylox.github.io/Sugarv1/)
-
-> Featuring legendary faces, ice cream, and sweet risk-taking energy 🍦💼
-
----
-
 ## 💻 Tech Stack
 
 - **HTML5** + **CSS3** for styling and layout  
